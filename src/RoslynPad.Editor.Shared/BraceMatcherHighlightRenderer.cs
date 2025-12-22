@@ -81,10 +81,7 @@ namespace RoslynPad.Editor
 
             var builder = new BackgroundGeometryBuilder
             {
-                CornerRadius = 1,
-#if !AVALONIA
-                AlignToMiddleOfPixels = true
-#endif
+                CornerRadius = 1
             };
 
             if (RightOfPosition != null)
